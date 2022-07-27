@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PandaCommerce | An e-commerce shop.</title>
+    <link rel="shortcut icon" href="images/panda.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="container fixed-top">
+        <!-- Main Navigation Start -->
+        <nav class="navbar navbar-expand-lg bg-light rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bags">Bags</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#watch">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Navigation End -->
+    </header>
+    <!-- Header End -->
+    <section class="container">
+        <section class="mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active bg-info">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur, error id quod
+                                    repellendus
+                                    possimus ea magnam, porro ad ab, ducimus culpa aperiam praesentium soluta. Quae libero
+                                    numquam nisi quasi.</p>
+                                <h1>$420</h1>
+                                <div class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-color: #FEEAE9;">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1>Mega OLED Telivision</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur, error id quod
+                                    repellendus
+                                    possimus ea magnam, porro ad ab, ducimus culpa aperiam praesentium soluta. Quae libero
+                                    numquam nisi quasi.
+                                </p>
+                                <h1>$4200</h1>
+                                <div class="btn btn-info">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg-primary">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1>Microsoft X-Box</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur, error id quod
+                                    repellendus
+                                    possimus ea magnam, porro ad ab, ducimus culpa aperiam praesentium soluta. Quae libero
+                                    numquam nisi quasi.</p>
+                                <h1>$2000</h1>
+                                <div class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </section>
+    <!-- Categories Start -->
+    <section class="container" id="categories">
+        <div class="text-center mt-5">
+            <div class="row g-0">
+                <h1 class="text-start">Categories</h1>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Shoes</h1>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Bag</h1>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Shoes</h1>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Bag</h1>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+                <div class="p-3 border col-lg-4 col-md-6 col-sm-12 bg-info d-flex align-items-center rounded justify-content-around">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="">
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Categories End -->
+    <!-- Products Shoes Start -->
+    <section class="container mt-5" id="shoes">
+        <h1>Shoes</h1>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products Shoes End -->
+    <!-- Products Bags Start -->
+    <section class="container mt-5" id="bags">
+        <h1>Bags</h1>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <h6>$299</h6>
+                        <div class="btn btn-warning">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products Bags End -->
+    <!-- Products Watch Start -->
+    <!-- Products Watch End -->
+    <!-- Subscribe Section Start -->
+    <section style="height: 300px;" class="container d-flex justify-content-center align-items-center rounded bg-primary mt-5" id="subscribe">
+        <div>
+            <form>
+                <h2>For our products update</h2>
+                <p>Please subscribe our newsletter</p>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="btn btn-warning mt-3">Subscribe</div>
+            </form>
+        </div>
+    </section>
+    <!-- Subscribe Section End -->
+    <!-- Footer Start -->
+    <footer class="text-center mt-5 ">
+        <p><small>copyright @ 2022 <a class="text-info text-decoration-none" href="index.html">PandaCart</a></small></p>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
